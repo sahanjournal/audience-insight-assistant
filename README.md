@@ -1,4 +1,4 @@
-# Sahan Journal audience insights talking points generator GPT setup
+# Sahan Journal audience insights GPT setup
 
 Tutorial on how to set up your newsroom's archive search assistant using OpenAI's custom GPT.
 
@@ -6,7 +6,7 @@ What is this GPT for?
 -
 We built this audience insight assistant to help Sahan Journal's advertising team build tailored media kit handouts to potential clients interested in placing ads on our website. This custom GPT sorts through Sahan's audience insight data and returns talking points relevant to the client.
 
-With the help of this GPT, our advertising director can quickly generate the text content for the handout within seconds.
+With the help of this GPT, our advertising director can generate the text content for the handout within seconds.
 
 Example: 
 <img width="1553" height="881" alt="Screenshot 2025-08-14 at 3 25 22 PM" src="https://github.com/user-attachments/assets/93bddacf-83dd-4b39-89c1-f09e54e6f2eb" />
@@ -22,7 +22,7 @@ Give your GPT a description
 
 Data source (GPT knowledge):
 - 
-We fed the GPT with Sahan's audience demographic report from [Resonate](https://www.resonate.com/), a pixel tracker that includes information about Sahan Journal readers' traits and behaviors. Specifically, indexes that tell us about how Sahan's audience is over-/under-indexing compared to overall Minnesota online users. 
+We fed the GPT with Sahan's audience demographic report from [Resonate](https://www.resonate.com/), a pixel-tracking tool that includes information about Sahan Journal readers' traits and behaviors. Specifically, index figures that tell us about how Sahan's audience is over-/under-indexing compared to overall Minnesota online users. 
 
 Here's a snapshot of this data:
 
@@ -35,7 +35,7 @@ You can switch out the knowledge files with audience insight data you have avail
 Prompt:
 -
 
-Here's the prompt that we use to instruct the GPT. Based on the structure of your data and the task you intend the GPT to perform, you would want to edit and adjust the instructions.
+Here's the prompt that we use to instruct the GPT. Based on the structure of your data and the task you intend the GPT to perform, you will want to edit and adjust the instructions.
 
 
 > You are a marketing associate at Sahan Journal, a nonprofit newsroom covering immigrants and communities of color in Minnesota. You are preparing a sales kit to present to an advertiser interested in advertising on Sahan Journal's platform.
@@ -97,9 +97,9 @@ Additional setup:
 -
 <img width="1107" height="683" alt="Screenshot 2025-08-14 at 4 00 31 PM" src="https://github.com/user-attachments/assets/fa01f0f5-340c-44f1-844f-3dfeffc4b588" />
 
-- Make sure to plug in your data sources in the knowledge. I also included an optional .txt file that gives context about the categories in the data.
+- Make sure to plug in your data sources in the GPT knowledge knowledge. I also included an optional .txt file that gives context about the categories in the data.
 - Enable Code Interpreter & Data Analysis so your GPT can analyze the code
-- [Optional] Enable Web Search. I enabled this feature so our advertising team can paste in URLs to the client's website/program.
+- [Optional] Enable Web Search. I enabled this feature so the GPT can access the internet if the user provides URLs to the client's website/program.
 
 Example Output
 - 
