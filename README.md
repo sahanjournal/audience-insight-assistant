@@ -30,7 +30,7 @@ Here's a snapshot of this data:
 
 In the prompt session, I describe the structure of the data and what each field means -- so the LLM can understand the data better.
 
-You can switch out the knowledge files with audience insight data you have available. Example: Google Analytics data, annual audience survey data, etc.
+You can switch out the knowledge files with audience insight data you have available. Example: Google Analytics data, annual audience survey data, Quantcast, etc.
 
 Prompt:
 -
