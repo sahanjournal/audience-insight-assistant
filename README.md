@@ -35,7 +35,7 @@ You can switch out the knowledge files with audience insight data you have avail
 Prompt:
 -
 
-Here's the prompt that we use to instruct the GPT. Based on the structure of your data and the task you intend the GPT to perform, you will want to edit and adjust the instructions.
+Here's the prompt that we use to instruct the GPT. Based on the structure of your data and the task you intend the GPT to perform, you will want to edit and adjust the instructions. (Copy paste or take from the txt.file: [`audience-insight-prompt.txt`](https://github.com/sahanjournal/audience-insight-assistant/blob/main/audience-insight-prompt.txt))
 
 
 > You are a marketing associate at Sahan Journal, a nonprofit newsroom covering immigrants and communities of color in Minnesota. You are preparing a sales kit to present to an advertiser interested in advertising on Sahan Journal's platform.
